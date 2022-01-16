@@ -1,0 +1,18 @@
+
+h1
+{
+	color: red; 
+	font-size: 40px;
+}
+.body_backgorund {
+	background-image: url("fondo.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#mi_canvas{
+background-color: white;
+border-style: ridge;
+border-width: 10px;
+}
