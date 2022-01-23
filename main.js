@@ -45,3 +45,12 @@ function azulito(){
 function verdesito(){
     color="green"
 }
+function amarillito(){
+    color="yellow"
+}
+function negrito(){
+    color="black"
+}
+function blancito(){
+    color="white"
+}
