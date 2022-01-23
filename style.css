@@ -16,3 +16,18 @@ background-color: white;
 border-style: ridge;
 border-width: 10px;
 }
+#rojo{
+	background-color: red;
+	color: white;
+}
+#verde{
+	background-color: green;
+	color: white;
+}
+#azul{
+	background-color: blue;
+	color: white;
+}
+#eee{
+	background-color: white;
+}
