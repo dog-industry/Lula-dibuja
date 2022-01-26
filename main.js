@@ -54,3 +54,9 @@ function negrito(){
 function blancito(){
     color="white"
 }
+function rosita(){
+    color="pink"
+}
+function moradito(){
+    color="purple"
+}
