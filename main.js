@@ -60,3 +60,31 @@ function rosita(){
 function moradito(){
     color="purple"
 }
+
+
+
+
+
+function add(imagen1){
+    estampa1=new Image()
+    estampa1.onload=estampa
+    estampa1.src=imagen1
+}
+function estampa() {
+    console.log(ultima_posicion_de_x+"/"+ultima_posicion_de_y)
+    ctx.drawImage(estampa1,ultima_posicion_de_x,ultima_posicion_de_y, 40,40)
+}
+window.addEventListener("keydown",teclapresionada)
+function teclapresionada(f) {
+
+    keyPressed=f.keyCode
+    console.log(keyPressed)
+    if (keyPressed=="65"){
+        var Lula_imagen1 ="Lula_estampa1.png"
+        add(Lula_imagen1)
+    }
+    if (keyPressed=="66"){
+        var Simona_imagen1 ="Simona_estampa1.png"
+        add(Simona_imagen1)
+    }
+}
