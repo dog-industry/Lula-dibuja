@@ -87,4 +87,12 @@ function teclapresionada(f) {
         var Simona_imagen1 ="Simona_estampa1.png"
         add(Simona_imagen1)
     }
+    if (keyPressed=="67"){
+        var Cirila_imagen1 ="Cirila_estampa1.png"
+        add(Cirila_imagen1)
+    }
+    if (keyPressed=="68"){
+        var Shatzi_imagen1 ="Shatzi_estampa1.png"
+        add(Shatzi_imagen1)
+    }
 }
