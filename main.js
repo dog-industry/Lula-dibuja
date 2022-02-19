@@ -95,4 +95,12 @@ function teclapresionada(f) {
         var Shatzi_imagen1 ="Shatzi_estampa1.png"
         add(Shatzi_imagen1)
     }
+    if (keyPressed=="69"){
+        var chewe_imagen1 ="chewe_estampa1.png"
+        add(chewe_imagen1)
+    }
+    if (keyPressed=="70"){
+        var maya_imagen1 ="maya_estampa1.png"
+        add(maya_imagen1)
+    }
 }
